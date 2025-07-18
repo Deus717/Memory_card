@@ -14,6 +14,7 @@ class Question():
         self.wrong1 = wrong1
         self.wrong2 = wrong2
         self.wrong3 = wrong3
+###
 
 question_list = []
 question_list.append(Question('Государственный язык Бразилии', 'Португальский', 'Испанский', 'Бразильский', 'Итальянский'))
