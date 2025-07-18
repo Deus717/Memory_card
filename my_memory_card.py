@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (QApplication, QWidget,
                             QRadioButton, QPushButton, QLabel,
                             QButtonGroup)
 from random import shuffle, randint
-###
+
 class Question():
     ''' содержит вопрос, правильный ответ и три неправильных'''
     def __init__(self, question, right_answer, wrong1, wrong2, wrong3):
